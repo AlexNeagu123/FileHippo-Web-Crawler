@@ -1,0 +1,5 @@
+*.log
+*.json
+.idea/
+__pycache__/
+*.db
