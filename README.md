@@ -3,6 +3,7 @@
 In the crawler file, I've implemented a web crawler that extracts data about the products available to download from FileHippo.
 Specifically, for each product available, the crawler extracts: Name, Version, Date Added, Languages, Download Link, Size, Filename, Md5.
 The information mentioned above is stored in a Postgres Database.
+
 In the api file, I've implemented a generic API based on the contents of the database.
 
 The following GET requests might be used:
